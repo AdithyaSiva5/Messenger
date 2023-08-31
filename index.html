@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</body>
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messenger</title>
+    <!-- ^link to style  -->
+    <link href="style.css" rel="stylesheet">
+    <!-- ^Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- ^Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- ^Bootstrap -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container-fluid ">
+            <div class="row ms-xl-5 ">
+                <div class="col-lg-12 pt-3">
+                    <nav class="navbar navbar-expand-md bg-white ps-5 pe-5">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                <img class="messenger-logo-img"
+                                src="https://scontent.fccj2-1.fna.fbcdn.net/v/t39.8562-6/120009688_325579128711709_1736249742330805861_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6825c5&_nc_ohc=QaxALR-IZIcAX8gIwdW&_nc_ht=scontent.fccj2-1.fna&oh=00_AfBehm7lb7Rfo-5kG_kPztTaGphU8Eg3MFzp5NLQ9Q4NPw&oe=64F655BD"
+                                    alt="Messenger-logo"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse pt-3" id="navbarTogglerDemo02">
+                                <ul class="nav-menu-elements navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active nav-header-FDPF" href="#">Features</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active nav-header-FDPF" href="#">Desktop App</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active nav-header-FDPF" href="#">Privacy and safety</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active nav-header-FDPF" href="#">For Developers</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main class="container pt-5 margin-main" id="main">
+        <div class="row">
+            <div class="heading col-lg-6 ps-xxl-4 col-md-12">
+                <div class="text mb-3" id="hang-out">
+                    <h1>Hang out <br class="br1">anytime,<br class="br2">anywhere </h1>
+                </div>
+                <br>
+                <div class="subheading">
+                    <p>Messenger make it easy and fun to stay close to your<br> favourite people</p>
+                </div>
+                <!-- *Form -->
+                <form id="signin-form" action="#">
+                    <input type="text" class="form-below-text" id="userInfo" placeholder="Email or Phone number"
+                        aria-label="First name">
+                        <div><span id="user-error"></span></div>
+                    <br>
+                    <input type="Password" class="form-below-text" id="password" placeholder="Password" aria-label="Last name">
+                    <div class="submit-forget-password">
+                        <div><span id="password-error"></span></div>
+                        <button class="btn btn-primary rounded-pill" type="submit">Log in</button>
+                        <a href="#">Forgetten your Password?</a>
+                    </div>
+                    <div class="keep-signin">
+                        <input type="checkbox" value="1" class="check-box">
+                        <label class="ml-2" id="n">Keep me signed in</label>
+                    </div>
+                    <div>
+                        <span>
+                            <img class="download-link-img"
+                                src="https://scontent.fccj2-1.fna.fbcdn.net/v/t39.8562-6/119597221_2801552506611915_4465041091818364564_n.svg?_nc_cat=1&ccb=1-7&_nc_sid=6825c5&_nc_ohc=VJ0S5yN0UBoAX9mOT6D&_nc_ht=scontent.fccj2-1.fna&oh=00_AfA20V-I6OHPLaVIK8u_0W5jtQAR5Ft9hQGKxXEF2_IySQ&oe=64F4D1F5"
+                                alt="Microsoft">
+                        </span>
+                        <span>
+                            <img class="download-link-img"
+                                src="https://scontent.fccj2-1.fna.fbcdn.net/v/t39.8562-6/119623783_679418069326044_1960140840932205061_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6825c5&_nc_ohc=I4WfCj3cXBoAX9HAmTk&_nc_ht=scontent.fccj2-1.fna&oh=00_AfD18BYqH_7gGniMAIknjujIIekiTOZgfzbdguPzx33XHw&oe=64F53F1D"
+                                alt="Apple">
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <div class="image1 col-lg-6 col-md-12">
+                <img class="chat-box-img"
+                src="https://scontent.fccj2-1.fna.fbcdn.net/v/t39.8562-6/120973513_338186077283942_8148888802958728934_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6825c5&_nc_ohc=NNmnrECk9d8AX_xDvn4&_nc_ht=scontent.fccj2-1.fna&oh=00_AfCEYKn81J86nB9hcDh94SS1Kh7EKAs7iRkuwSW57EgV9A&oe=64F60EE7"
+                    alt="image">
+            </div>
+        </div>
+    </main>
+
+    <!-- *Footer -->
+    <footer class="container-xl">
+        <span class="meta-2023">© Meta 2023</span>
+        <span>. The Apple and Google Play logos are trademarks of their respective owners.</span>
+        <span class="spacing-footer"><br></span>
+        <span>Privacy Policy</span>
+        <span class="spacing-footer"></span>
+        <span>Cookie Policy</span>
+        <span class="spacing-footer"></span>
+        <span>Terms</span>
+        <span class="spacing-footer"></span>
+        <span class="btn-group dropup">
+            <button type="button" class="btn btn-transparent dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                English
+            </button>
+            <ul class="dropdown-menu">
+                <!-- Dropdown menu links -->
+                <li><a class="dropdown-item" href="#">Čeština</a></li>
+                <li><a class="dropdown-item" href="#">Dansk</a></li>
+                <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                <li><a class="dropdown-item" href="#">English (UK)</a></li>
+                <li><a class="dropdown-item" href="#">English (US)</a></li>
+                <li><a class="dropdown-item" href="#">हिन्दी</a></li>
+                <li><a class="dropdown-item" href="#">Italiano</a></li>
+                <li><a class="dropdown-item" href="#">Português (Brasil)</a></li>
+                <li><a class="dropdown-item" href="#">日本語</a></li>
+                <li><a class="dropdown-item" href="#">Polski</a></li>
+            </ul>
+        </span>
+        <img class="meta-logo-footer"
+            src="https://scontent.fcok14-1.fna.fbcdn.net/v/t39.8562-6/284131241_398860802255675_7090232386370085328_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6825c5&_nc_ohc=JSehFw1nEe0AX8TxAX_&_nc_ht=scontent.fcok14-1.fna&oh=00_AfCyO4Io2xQsgm0NkHforGuCoGQMfhx2kXEt-7zjZUl9ng&oe=6482BD86"
+            alt="">
+
+
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
